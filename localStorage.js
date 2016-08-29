@@ -21,8 +21,7 @@ class LocalStorage {
     valuesMap.clear()
   }
 
-  key (i) {
-    i = i || 0
+  key (i = 0) {
     var arr = Array.from(valuesMap.keys())
     return arr[i]
   }
